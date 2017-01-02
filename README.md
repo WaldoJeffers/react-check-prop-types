@@ -16,7 +16,7 @@ npm install react-check-prop-types
 import checkPropTypes from 'react-check-prop-types'
 
 class Component extends React.Component{
-...
+  // ...
 }
 export default checkPropTypes(Component)
 ```
@@ -27,7 +27,7 @@ import checkPropTypes from 'react-check-prop-types'
 
 @checkPropTypes
 export default class Component extends React.Component{
-...
+  // ...
 }
 ```
 
